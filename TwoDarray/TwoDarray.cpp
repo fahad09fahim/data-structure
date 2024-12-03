@@ -3,33 +3,25 @@ using namespace std;
 
 int main()
 {
-    int r, c, i, j;
-    cout << "Enter the number of Rows:";
-    cin >> r;
-    cout << "Enter the number of Columns:";
-    cin >> c;
 
-    // initialize array size with user input
-    int arr[r][c];
-
-    // inserting array elements using for loop
+    int r, c;
+    cout << "Enter the number of rows and columns: ";
+    cin >> r >> c;
+    int arr[r][c], i, j;
     for (i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)
         {
-            cout << "Enter element at position [" << i << "," << j << "] : ";
+            cout << "Element[" << i << "][" << j << "]: ";
             cin >> arr[i][j];
         }
     }
-
-    // display array elements
-    cout << "Array data elements are:" << endl;
+    cout << "Array Elements are:" << endl;
     for (i = 0; i < r; i++)
     {
         for (j = 0; j < c; j++)
         {
-            cout << "Element[" << i << "," << j << "]:" << arr[i][j] << endl;
+            cout << "Elements[" << i << "][" << j << "]:" << arr[i][j] << endl;
         }
     }
-    return 0;
 }

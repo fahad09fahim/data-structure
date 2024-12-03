@@ -9,11 +9,12 @@ int main()
     cin >> n;
     for (i = 1; i <= n; i++)
     {
+        cout << "Element[" << i << "]:";
         cin >> arr[i];
     }
     cout << "Array Data elements are:" << endl;
     for (j = 1; j <= n; j++)
     {
-        cout << "Elements: " << arr[j] << endl;
+        cout << "Elements[" << j << "]: " << arr[j] << endl;
     }
 }
