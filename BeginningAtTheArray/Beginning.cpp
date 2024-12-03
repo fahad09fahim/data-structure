@@ -13,8 +13,9 @@ int main()
         cout << "Element:[" << i << "]:" << arr[i] << endl;
     }
     // create space for the beginning of the array
-    for (i = n; i >= 0; i--)
+    for (i = n - 1; i >= 0; i--)
     {
+
         arr[i + 1] = arr[i];
     }
     arr[0] = data;
