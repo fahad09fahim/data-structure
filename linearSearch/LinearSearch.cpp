@@ -9,7 +9,7 @@ int main()
     cin >> n;
     int a[n];
     // Input array elements
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         cout << "Enter the number a[" << i << "] = ";
         cin >> a[i];
