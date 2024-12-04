@@ -42,7 +42,7 @@ int main()
     }
     else
     {
-        cout << " Found at position:" << R << "\t" << C << "Cell";
+        cout << " Found at position: " << R << C << " Cell";
     }
     return 0;
 }
